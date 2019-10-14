@@ -20,13 +20,18 @@ $ pip install -r requirements.txt
 
 ### Tools to try
 
-1. Temperature converter
+1. Temperature Converter
 - This tool was taken from the pypercard project tutorials listed [here](https://pypercard.readthedocs.io/en/latest/tutorial5.html).
 ```
 $ python python_pypercard_fun/temp_conversion.py
 ```
 
-
+2. Trick or Treat
+- This is the starting point for a choose your own adventure game. It may be a
+bit too deadly at the moment. More work required.
+```
+$ python python_pypercard_fun/trick_or_treat.py
+```
 
 ### Testing
 ```
