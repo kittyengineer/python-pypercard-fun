@@ -20,11 +20,19 @@ stack = [
         text="The street is strangely quiet. Where do you want to go from here ...",
         buttons=[
             {"label": "house 1", "target": "Dead End"},
-            {"label": "house 2", "target": "Dead End"},
+            {"label": "house 2", "target": "Toothbrush house"},
             {"label": "house 3", "target": "Dead End"},
             {"label": "forward", "target": "Park"},
         ],
     ),
+
+    Card(
+        "Toothbrush house",
+        text="The house door creaks open, light hits your gaze, and you are hit by something hard. It bounces off your head and falls to the ground. Ew.. A toothbrush.",
+        auto_advance=3,
+        auto_target="Elm Street left"
+    ),
+
 
     Card(
         "Park",
