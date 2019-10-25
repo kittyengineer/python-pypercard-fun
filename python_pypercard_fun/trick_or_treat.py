@@ -19,7 +19,7 @@ stack = [
         "Elm Street left",
         text="The street is strangely quiet. Where do you want to go from here ...",
         buttons=[
-            {"label": "house 1", "target": "Dead End"},
+            {"label": "house 1", "target": "Disapointing house"},
             {"label": "house 2", "target": "Toothbrush house"},
             {"label": "house 3", "target": "Dead End"},
             {"label": "forward", "target": "Park"},
@@ -30,6 +30,13 @@ stack = [
         "Toothbrush house",
         text="The house door creaks open, light hits your gaze, and you are hit by something hard. It bounces off your head and falls to the ground. Ew.. A toothbrush.",
         auto_advance=3,
+        auto_target="Elm Street left"
+    ),
+
+    Card(
+        "Disapointing house",
+        text="This house has some lights on! You knock hopefully, but no-one answers. You see a clear bowl lying on the ground near your feet, with a sign that says; Take one! It's empty.",
+        auto_advance=5,
         auto_target="Elm Street left"
     ),
 
